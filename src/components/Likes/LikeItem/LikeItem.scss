@@ -1,0 +1,40 @@
+.likeItemSection {
+    .likeItemContent {
+        display: flex;
+        gap: 40px;
+
+        .likeItemPhoto {
+            width: 200px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .likeItemDescription {
+            .likeItemTitle {
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+            .likeItemDate {
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        .likeItemButton {
+            flex-shrink: 0;
+
+            svg {
+                border: 1px solid rgba(0, 0, 0, 0.6);
+                flex-shrink: 0;
+                font-size: 20px;
+                color: red;
+                background-color: white;
+                border-radius: 50%;
+                padding: 5px;
+            }
+        }
+    }
+}

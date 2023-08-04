@@ -1,0 +1,34 @@
+.bannerSection {
+    .bannerContent {
+        position: relative;
+
+        .bannerPoster {
+            width: 100%;
+            height: 400px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .bannerCTA {
+            position: absolute;
+            bottom: 10%;
+            left: 5%;
+
+            .bannerButton {
+                padding: 15px 20px;
+                color: white;
+                font-weight: 500;
+                background-color: #d1410c;
+                border-radius: 5px;
+            }
+
+            .bannerButton:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

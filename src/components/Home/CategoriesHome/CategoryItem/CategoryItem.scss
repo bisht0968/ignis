@@ -1,0 +1,22 @@
+.categoryItemSection {
+    .categoryItemContent {
+        background-color: #f8f7fa;
+        padding: 20px;
+        border-radius: 5px;
+
+        .categoryItemTitle {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.7);
+            border: 1px solid #f8f7fa;
+
+            svg {
+                color: #f05537;
+                flex-shrink: 0;
+            }
+        }
+    }
+}

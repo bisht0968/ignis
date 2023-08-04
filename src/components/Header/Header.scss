@@ -1,0 +1,158 @@
+.headerSection {
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+
+        .headerLeft {
+            display: flex;
+            gap: 20px;
+            width: 50%;
+            align-items: center;
+            padding-block: 10px;
+
+            .headerLogo {
+                font-weight: 700;
+                font-size: 25px;
+                color: #f05537;
+            }
+
+            .headerLogo:hover {
+                cursor: pointer;
+            }
+
+            .headerSearch {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 10px;
+                padding: 20px;
+                border: none;
+                flex: 1;
+                border-radius: 5px;
+                background-color: #f8f7fa;
+
+                input {
+                    border: none;
+                    outline: 0;
+                    background-color: inherit;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.3);
+                }
+
+                input:hover {
+                    cursor: pointer;
+                }
+
+                svg {
+                    color: rgba(0, 0, 0, 0.3);
+                    font-weight: 600;
+                }
+            }
+
+            .headerSearch:hover {
+                cursor: pointer;
+            }
+        }
+
+        .headerRight {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 14px;
+
+            .likeSection {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .section {
+                color: #393655;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                padding: 0px 15px;
+
+                .showDropdown {
+                    position: absolute;
+                    bottom: -200%;
+                    z-index: 2;
+                    right: 0;
+                    background-color: white;
+                    color: rgba(0, 0, 0, 0.6);
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .showDropdownItem {
+                    padding: 10px;
+                    background-color: transparent;
+                }
+
+                .exceptionShowDropdown {
+                    bottom: -150%;
+                }
+
+                .showDropdownItem:hover {
+                    cursor: pointer;
+                    background-color: #f8f7fa;
+                }
+
+                .createEvent {
+                    color: #3d64ff;
+                }
+
+            }
+
+            .section:hover {
+                cursor: pointer;
+                background-color: #f8f7fa;
+            }
+
+            .dropdown {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+
+                svg {
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+
+            .userName {
+                color: red;
+                position: relative;
+                height: 100%;
+                padding-inline: 20px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .userLogout {
+                    position: absolute;
+                    bottom: -50%;
+                    right: 0;
+                    width: 62px;
+                    color: rgba(0, 0, 0, 0.6);
+                    text-align: center;
+                    padding: 10px;
+                    z-index: 2;
+                    background-color: white;
+                }
+
+                .userLogout:hover {
+                    background-color: #f8f7fa;
+                }
+            }
+
+            .userName:hover {
+                cursor: pointer;
+                background-color: #f8f7fa;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.loginSection {
+    .loginContent {
+        display: flex;
+        justify-content: flex-end;
+
+        .loginForm {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            padding: 40px;
+            gap: 20px;
+
+            .logo {
+                font-weight: 700;
+                font-size: 25px;
+                color: #f05537;
+            }
+
+            .loginTitle {
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            .logo:hover {
+                cursor: pointer;
+            }
+
+            form {
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    border: 2px solid rgba(0, 0, 0, 0.3);
+                    padding: 10px;
+                    font-size: 14px;
+                    width: 40%;
+                    outline: 0;
+                }
+
+                .loginButton {
+                    background-color: #f05537;
+                    border-radius: 3px;
+                    padding: 10px;
+                    display: flex;
+                    width: 41%;
+                    justify-content: center;
+                    align-items: center;
+
+                    button {
+                        background-color: inherit;
+                        border: none;
+                        outline: none;
+                        color: white;
+                        font-weight: 700;
+                    }
+
+                    button:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                .loginButton:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .signUpButton {
+            background-color: #f05537;
+            border-radius: 3px;
+            padding: 10px;
+            display: flex;
+            width: 41%;
+            color: white;
+            font-weight: 700;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signUpButton:hover {
+            cursor: pointer;
+        }
+
+        .loginBanner {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

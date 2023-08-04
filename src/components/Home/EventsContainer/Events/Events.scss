@@ -1,0 +1,33 @@
+.eventsSection {
+    width: 1000px;
+    margin: 40px auto;
+
+    .eventsContent {
+        .eventsTitle {
+            font-weight: 700;
+            font-size: 30px;
+            margin-block: 20px;
+        }
+
+        .eventsContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .eventsEvent {
+                background-color: #f9f9f9;
+                border-radius: 5px;
+                flex-basis: 20%;
+                padding: 10px;
+                margin-block: 20px;
+                height: 300px;
+            }
+
+            .eventsEvent:hover {
+                cursor: pointer;
+                transform: scale(1.08);
+                transition: all 0.3s;
+            }
+        }
+    }
+}

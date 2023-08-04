@@ -1,0 +1,27 @@
+.categoriesHomeSection {
+    .categoriesHomeContent {
+        width: 1000px;
+        margin: 40px auto;
+
+        .categoriesHomeTitle {
+            font-weight: 700;
+            font-size: 30px;
+            margin-block: 20px;
+        }
+
+        .categoriesHomeContainer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .categoriesHomeItem {
+                flex-basis: 24%;
+                margin-block: 10px;
+            }
+
+            .categoriesHomeItem:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

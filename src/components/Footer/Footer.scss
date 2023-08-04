@@ -1,0 +1,27 @@
+.footerSection {
+    .footerContent {
+        background-color: #1e0a3c;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        display: flex;
+        padding: 20px 50px;
+        justify-content: space-between;
+
+        .footerItems {
+            list-style: none;
+            font-weight: 400;
+            font-size: 12px;
+            margin-block: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .footerItems li:hover {
+            cursor: pointer;
+            color: blue;
+        }
+
+    }
+}

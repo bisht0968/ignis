@@ -1,0 +1,25 @@
+.moreEventsSection {
+    width: 1000px;
+    margin: 40px auto;
+
+    .moreEventsContent {
+        .moreEventsSeeMoreButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .button {
+                margin-block: 20px;
+                border: 2px solid rgba(0, 0, 0, 0.4);
+                border-radius: 8px;
+                padding: 10px;
+                width: 25%;
+                text-align: center;
+            }
+
+            .button:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
